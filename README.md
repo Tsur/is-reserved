@@ -31,7 +31,12 @@ It is also possible to use it programatically:
 ``` js
 import isReserved from 'is-reserved';
 
-const isDeleteReserved = isReserved.check('delete', isReserved.ES6);
+console.log('is delete reserved on latest ECMAScript Version?', isReserved.check('delete'));
+console.log('is delete reserved on ES6?', isReserved.check('delete', isReserved.ES6));
+console.log('is delete reserved on ES2?', isReserved.check('delete', isReserved.ES2));
+
+// List all reserved keywords for ES5
+console.log(isReserved.keywords[isReserved.ES5]);
 
 ```
 
