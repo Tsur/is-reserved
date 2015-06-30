@@ -1,0 +1,46 @@
+{
+  "name": "is-reserved",
+  "version": "0.0.10",
+  "description": "Check if some keyword is reserved in Javascript. It supports all ECMAScript versions",
+  "author": "Zuri Pabon (@tsurshaddai) <zurisadai.pabon@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "tape test.js",
+    "build": "babel index.es6 > index.js"
+  },
+  "dependencies": {
+    "ramda": "^0.15.1"
+  },
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "tape": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsur/is-reserved.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tsur/is-reserved/issues"
+  },
+  "homepage": "https://github.com/tsur/is-reserved",
+  "keywords": [
+    "reserved",
+    "keyword",
+    "javascript",
+    "ECMAScript",
+    "ECMAScript1",
+    "ECMAScript2",
+    "ECMAScript3",
+    "ECMAScript5",
+    "ECMAScript6",
+    "es",
+    "es1",
+    "es2",
+    "es3",
+    "es5",
+    "es6",
+    "es7"
+  ]
+}
