@@ -1,6 +1,6 @@
 # is it a reserved keyword ?
 
-If your're wondering if some keyword is reserved in Javascript, check it out with is-reserved. It supports from ECMASCript 2 until ECMAScript 6 and even the ECMAScript 7 draft.
+If your're wondering if some keyword is reserved in Javascript, check it out with is-reserved. It supports from ECMASCript 1 until ECMAScript 6 and even the ECMAScript 7 draft.
 
 ## Installation
 
