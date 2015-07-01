@@ -1,6 +1,6 @@
 {
   "name": "is-reserved",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Check if some keyword is reserved in Javascript. It supports all ECMAScript versions",
   "author": "Zuri Pabon (@tsurshaddai) <zurisadai.pabon@gmail.com>",
   "license": "MIT",
