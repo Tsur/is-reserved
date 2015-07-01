@@ -10,7 +10,7 @@ $ npm install is-reserved
 $ npm install is-reserved --global
 ```
 
-## Command line
+## Command line tool
 
 is-reserved was made to run right away from your terminal
 
@@ -18,7 +18,7 @@ is-reserved was made to run right away from your terminal
 $ is-reserved delete
 ```
 
-You may specify the ECMAScript version with the option --es
+You may specify the ECMAScript version with the option --es*
 
 ```bash
 $ is-reserved delete --es6
