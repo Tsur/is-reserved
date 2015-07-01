@@ -1,13 +1,13 @@
 # is it a reserved keyword ?
 
-If your're wondering if some keyword is reserved in Javascript, check it out with is-reserved. It supports from ECMASCript 1 until ECMAScript 6 and even the ECMAScript 7 draft.
+If your're wondering if some name is reserved in Javascript, make it sure by checking it out with is-reserved. It supports from ECMASCript 1 until ECMAScript 6 and even the ECMAScript 7 draft.
 
 ## Installation
 
 ```bash
-npm install is-reserved
+$ npm install is-reserved
 # or set it up globally
-npm install is-reserved --global
+$ npm install is-reserved --global
 ```
 
 ## Command line
@@ -15,14 +15,16 @@ npm install is-reserved --global
 is-reserved was made to run right away from your terminal
 
 ```bash
-is-reserved delete
+$ is-reserved delete
 ```
 
-You may specifica the ECMAScript version with the option --es
+You may specify the ECMAScript version with the option --es
 
 ```bash
-is-reserved delete --es 6
+$ is-reserved delete --es6
 ```
+
+For other options, just type $ is-reserved help
 
 ## Usage
 

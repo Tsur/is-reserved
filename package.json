@@ -8,9 +8,12 @@
   "bin": "cli.js",
   "scripts": {
     "test": "tape test.js",
-    "build": "babel index.es6 > index.js"
+    "build": "babel index.es6 > index.js",
+    "example": "babel-node example.es6"
   },
   "dependencies": {
+    "lodash": "^3.10.0",
+    "minimist": "^1.1.1",
     "ramda": "^0.15.1"
   },
   "devDependencies": {
